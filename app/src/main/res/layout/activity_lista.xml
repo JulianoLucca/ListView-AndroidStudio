@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/escudoum"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginVertical="20dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/galo" />
+
+    <TextView
+        android:id="@+id/timeum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_toRightOf="@id/escudoum"
+        android:fontFamily="@font/roboto_light"
+        android:text="Karen Stewart"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/escudodois"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:src="@drawable/galo" />
+
+    <TextView
+        android:id="@+id/timedois"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_toLeftOf="@+id/escudodois"
+        android:fontFamily="@font/roboto_light"
+        android:text="Karen Stewart"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+</RelativeLayout>

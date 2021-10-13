@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ListView</string>
+
+    <string name="txtlibertadores">Copa Libertadores da América</string>
+    <string name="inicio">Início</string>
+
+    <string name="btnproximo">Próximo</string>
+    <string name="txtoitavas">Oitavas de Final</string>
+    <string name="txtquartas">Quartas de Final</string>
+    <string name="txtsemifinal">Semifinal</string>
+    <string name="txtfinal">Final</string>
+</resources>
